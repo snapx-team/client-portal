@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.15",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "laravel-mix": "^6.0.49",
+        "postcss": "^8.4.29",
+        "react-refresh": "^0.14.0",
+        "tailwindcss": "^3.3.3"
+    },
+    "dependencies": {
+        "@babel/preset-react": "^7.22.15",
+        "@headlessui/react": "^1.7.17",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.15.0",
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.2.2",
+        "vue-router": "^4.2.4"
+    }
+}
