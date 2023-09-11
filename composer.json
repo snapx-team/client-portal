@@ -1,0 +1,31 @@
+{
+    "name": "xguard/client-portal",
+    "description": "A plugin for clients to access gated content and private information that is associated with them",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siamak Samie",
+            "email": "siamak@xguard.ca"
+        },
+        {
+            "name": "Nicolas Champagne",
+            "email": "nicolas.champagne@xguard.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Xguard\\ClientPortal\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Xguard\\ClientPortal\\ClientPortalServiceProvider"
+            ]
+        }
+    }
+}
